@@ -1,0 +1,53 @@
+.playlist-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.playlist-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-img-styles {
+  height: 120px;
+  width: 200px;
+}
+
+.item-title {
+  font-size: 25px;
+  margin: 10px;
+  font-weight: 400;
+}
+
+.item-genre {
+  color: #3b82f6;
+  margin: 10px;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.duration {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 7px;
+  margin-left: 50px;
+}
